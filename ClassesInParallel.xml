@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Suite" parallel="classes">
+  <test name="Test" >
+    <classes>
+      <class name="week4day4.testng.classes.inparallel.CreateLeadWdMethodsImple"/>
+      <class name="week4day4.testng.classes.inparallel.DeleteLeadWdMethods"/>
+      <class name="week4day4.testng.classes.inparallel.MergeLeadWdMethodimple"/>
+      <class name="week4day4.testng.classes.inparallel.EditLeadWdMethodsImple1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

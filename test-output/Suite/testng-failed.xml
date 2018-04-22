@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <test verbose="5" name="Test(failed)">
+    <parameter name="password" value="crmsfa"/>
+    <parameter name="uName" value="DemoSalesManager"/>
+    <parameter name="url" value="http://www.leaftaps.com/opentaps/control/main"/>
+    <classes>
+      <class name="parameter.dataprovider.CreateLeadWdMethodsImple">
+        <methods>
+          <include name="login"/>
+          <include name="createLead"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- parameter.dataprovider.CreateLeadWdMethodsImple -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

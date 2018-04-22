@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+  <test name="Test">
+    <groups>
+    <run>
+    <include name="smoke"></include>
+        <include name="sanity"></include>
+    </run>
+    </groups>
+    <classes>
+    
+      <class name="week4day4.testng.dependongroups.DeleteLeadWdMethods"/>
+      <class name="week4day4.testng.dependongroups.MergeLeadWdMethodimple"/>
+      <class name="week4day4.testng.dependongroups.EditLeadWdMethodsImple1"/>
+      <class name="week4day4.testng.dependongroups.CreateLeadWdMethodsImple"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
